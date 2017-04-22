@@ -1,7 +1,7 @@
 # UIDD - Back-end Practice
 
 * This repository is a practice for lesson UIDD 2017 at NCKU-EE.
-* Collaborating with team members in **SCABER-Dev-Team**.
+* Collaborating with team members in **SCABER**.
 
 ## Introduction
 
@@ -31,8 +31,9 @@ This repository is a simple implememtation to `GET`, `POST`, and AJAX methods. T
 ## Author
 
 * [Yung-Sheng Lu](yungshenglu1994@gmail.com)
-* [Kevin Cyu](kevinbird61@gmail.com)
 * [OTHER TEAM MEMBER]
 
 ---
 Contribute to User Interface Design and Development (UIDD) 2017 in NCKU-EE.
+
+
