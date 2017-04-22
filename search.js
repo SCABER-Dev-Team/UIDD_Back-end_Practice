@@ -6,6 +6,6 @@ $('.ajax > .btn-submit').click(function() {
     $.get('ajax.njs', {
         id: queryID
     }, function(data) {
-        $('.ajax-result').html(data);
+        $('.ajax-result').html('<h1>Hello, ' + data + '</h1>');
     });
 });
