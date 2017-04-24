@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Custom -->
+    <script src="js/filter.js"></script>
     <link rel="stylesheet" href="css/main.css">
 </head>
 
@@ -61,6 +62,58 @@
                     </form>
                 </div>
                 <div class="col-md-6">
+                    <div class="panel panel-primary filterable">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Users list</h3>
+                            <div class="pull-right">
+                                <button class="btn btn-default btn-xs btn-filter">
+                                    <span class="glyphicon glyphicon-filter"></span> Filter
+                                </button>
+                            </div>
+                        </div>
+                        <table class="table">
+                            <thead>
+                                <tr class="filters">
+                                    <th>
+                                        <input class="form-control" type="text" placeholder="#" disabled>
+                                    </th>
+                                    <th>
+                                        <input class="form-control" type="text" placeholder="Student ID" disabled>
+                                    </th>
+                                    <th>
+                                        <input class="form-control" type="text" placeholder="Name" disabled>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>F74039025</td>
+                                    <td>陸勇盛</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>F74026103</td>
+                                    <td>瞿旭民</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>E24039067</td>
+                                    <td>劉家良</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>P36051016</td>
+                                    <td>張睿宏</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>E24039091</td>
+                                    <td>吳治緯</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                     <p class="ajax-result"></p>
                 </div>
             </div>

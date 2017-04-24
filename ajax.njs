@@ -12,5 +12,5 @@ var nameList = JSON.parse(fs.readFileSync('./data/name.json', 'utf8'));
 console.log('Content-type: text/html; charset=utf-8\n');
 
 setTimeout(function() {
-    console.log('<h1>' + nameList[param.id] + '</h1>');
+    console.log(nameList[param.id]);
 }, 1500);

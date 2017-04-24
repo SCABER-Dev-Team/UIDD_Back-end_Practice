@@ -65,3 +65,45 @@ section.form .section-content {
     -o-transition: all 0.5s linear;
     -moz-transition: all 0.5s linear;
 }
+
+.section-content .filterable {
+    margin-top: 15px;
+}
+
+.filterable .pull-right {
+    margin-top: -20px;
+}
+
+.filterable .filters input[disabled] {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    cursor: auto;
+    height: auto;
+    padding: 0;
+}
+
+.filterable .filters input[disabled]::-webkit-input-placeholder {
+    color: #333333;
+}
+
+.filterable .filters input[disabled]::-moz-placeholder {
+    color: #333333;
+}
+
+.filterable .filters input[disabled]:-ms-input-placeholder {
+    color: #333333;
+}
+
+.filterable .table tbody tr {
+    color: #000000;
+    font-size: 1.3em;
+}
+
+.filterable .table tbody tr:hover {
+    background-color: #CCCCCC;
+    transition: background-color 0.5s linear;
+    -webkit-transition: background-color 0.5s linear;
+    -o-transition: background-color 0.5s linear;
+    -moz-transition: background-color 0.5s linear;
+}
