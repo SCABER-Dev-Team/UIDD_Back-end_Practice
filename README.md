@@ -11,6 +11,8 @@ This repository is a simple implememtation to `GET`, `POST`, and AJAX methods. T
 
 * [Demo link](http://luffy.ee.ncku.edu.tw/~yungshenglu/http/)
 
+![Demo View](img/demo/demo.png)
+
 ## Description
 
 * `index.html`
