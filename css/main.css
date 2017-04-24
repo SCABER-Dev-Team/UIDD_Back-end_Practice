@@ -1,6 +1,7 @@
 section.form {
     background: -webkti-linear-gradient(to left, #3A6186, #89253E);
     background: linear-gradient(to left, #3A6186, #89253E);
+    background-size: cover;
     color: #FFFFFF;
     font-family: 'Teko', sans-serif;
     height: 100vh;
@@ -60,10 +61,10 @@ section.form .section-content {
 .section-content .form-group .btn-submit:hover {
     background-color: #FFFFFF;
     color: #000000;
-    transition: all 0.5s linear;
-    -webkit-transition: all 0.5s linear;
-    -o-transition: all 0.5s linear;
-    -moz-transition: all 0.5s linear;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
 }
 
 .section-content .filterable {
@@ -102,8 +103,8 @@ section.form .section-content {
 
 .filterable .table tbody tr:hover {
     background-color: #CCCCCC;
-    transition: background-color 0.5s linear;
-    -webkit-transition: background-color 0.5s linear;
-    -o-transition: background-color 0.5s linear;
-    -moz-transition: background-color 0.5s linear;
+    transition: background-color 0.2s ease-in-out;
+    -webkit-transition: background-color 0.2s ease-in-out;
+    -o-transition: background-color 0.2s ease-in-out;
+    -moz-transition: background-color 0.2s ease-in-out;
 }

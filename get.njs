@@ -9,8 +9,7 @@ var param = querystring.parse(process.env.QUERY_STRING);
 var nameList = JSON.parse(fs.readFileSync('./data/name.json', 'utf8'));
 
 /* Return header to browser */
-console.log('Content-type: text/html; charset=utf-8\n');
+console.log('Content-type: text/html; charset="utf-8"\n');
 
 /* Return HTML content */
-//$('.ajax-result').html('<h1>Hello, ' + nameList[param.id] + '</h1>');
 console.log('<h1>Hello, ' + nameList[param.id] + '</h1>');

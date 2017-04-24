@@ -18,7 +18,7 @@ $(function() {
 $('.ajax .btn-submit').click(function() {
     /* Set loading message */
     setTimeout(function() {
-        $('.ajax-result').html('<h3>Loading...</h3>');
+        $('.ajax-result').html('Loading...');
     }, 400);
 
     /* Read input value */
@@ -28,7 +28,7 @@ $('.ajax .btn-submit').click(function() {
     $.get('./ajax.njs', {
         id: queryID
     }, function(data) {
-        $('.ajax-result').html('<h3>Hello, ' + data + '</h2>');
+        $('.ajax-result').html('Hello, ' + data);
         $('input[type=text]').val('');
     });
 });
