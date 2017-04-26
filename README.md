@@ -33,6 +33,7 @@ This repository is a simple implememtation to `GET`, `POST`, and AJAX methods. T
 ## Author
 
 * [Yung-Sheng Lu](yungshenglu1994@gmail.com)
+* [Chia-Liang Liu](derhua0101@gmail.com)
 * [OTHER TEAM MEMBER]
 
 ---
